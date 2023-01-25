@@ -1,0 +1,17 @@
+{
+  "powermode.enabled": true,
+  "powermode.combo.timerEnabled": "hide",
+  "powermode.shake.enabled": false,
+  "powermode.explosions.customExplosions": ["https://i.imgur.com/Rh9pk1e.gif"],
+  "powermode.explosions.explosionOrder": "sequential",
+  "powermode.explosions.size": 3,
+  "powermode.explosions.frequency": 1,
+  // "powermode.explosions.offset": 0.315,
+  "powermode.explosions.gifMode": "continue",
+  "powermode.explosions.duration": 1000,
+  "powermode.explosions.backgroundMode": "image",
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true
+}

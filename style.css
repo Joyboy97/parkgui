@@ -8,17 +8,18 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: #1858f8;
+    background: #2858f8;
     color: #fff;
 }
 /* find better font and colors for the page */
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/standingclosed.png);
+    background-image: url(images/standingopen.png);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position-x: right; 
-    background-size: 600px 1000px;
+    background-position: center; 
+    /* 600px 1000px; */
 }
 .container{
     padding: 10px 10%;
@@ -80,8 +81,8 @@ nav ul li a:hover::after{
 /* this controls alexes big ass photos */
 #about{
     padding:80px 0;
-    color:#ababab;
-
+    /* color: */
+    background-color:#ababab;
 }
 .row{ 
     display: flex;
