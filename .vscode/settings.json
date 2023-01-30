@@ -1,16 +1,22 @@
 {
   "powermode.enabled": true,
   "powermode.combo.timerEnabled": "hide",
+  "powermode.combo.counterEnabled": "hide",
+  "powermode.explosions.customCss": {
+    "mix-blend-mode": "color-dodge"
+  },
   "powermode.shake.enabled": false,
-  "powermode.explosions.customExplosions": ["https://i.imgur.com/Rh9pk1e.gif"],
+  "powermode.explosions.customExplosions": [
+    "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3316da0d-ec0c-47f0-a9d3-d6e0af5f9897/dadmbtc-d4535416-030d-4ed9-b755-3c6af167c666.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzMzMTZkYTBkLWVjMGMtNDdmMC1hOWQzLWQ2ZTBhZjVmOTg5N1wvZGFkbWJ0Yy1kNDUzNTQxNi0wMzBkLTRlZDktYjc1NS0zYzZhZjE2N2M2NjYuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.-j9GolJGKptbfvwW0uwtOeL5N1hVMswinmOv5IECtZ0"
+  ],
+  "powermode.explosions.offset": 0.25,
   "powermode.explosions.explosionOrder": "sequential",
-  "powermode.explosions.size": 3,
+  "powermode.explosions.size": 9,
   "powermode.explosions.frequency": 1,
   // "powermode.explosions.offset": 0.315,
   "powermode.explosions.gifMode": "continue",
   "powermode.explosions.duration": 1000,
   "powermode.explosions.backgroundMode": "image",
-
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true

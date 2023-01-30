@@ -15,7 +15,9 @@
     <div id="header">
       <div class="container">
         <nav>
-          <img src="images/name.png" alt="Victor" class="logo" />
+          <a href="#">
+            <img src="images/name.png" alt="Victor" class="logo" />
+          </a>
           <ul id="sidemenu">
             <li><a href="#header">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -24,15 +26,15 @@
             <li><a href="#contact">Contact</a></li>
             <i class="fas fa-times" onclick="closemenu()"></i>
           </ul>
+
           <i class="fas fa-bars" onclick="openmenu()"></i>
         </nav>
         <div class="header-text">
           <p>Network Managment Intern</p>
           <h1>
-            Hey, I'm
-            <span>Victor</span>
+            Hello, I'm
             <br />
-            Udo from Delaware
+            <span>Victor Udo</span>
           </h1>
         </div>
       </div>
@@ -47,10 +49,15 @@
           <div class="about-col-2">
             <h1 class="sub-title">About Me</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur doloremque assumenda, exercitationem ducimus eius
-              placeat fuga vero nam illo excepturi hic cum eligendi rerum sed,
-              laborum, quasi ipsum? Numquam, omnis.
+              I am currently a third year computer science student at the
+              University of Delaware. I work as a Network Management Intern on
+              UD campus. I am a young aspiring software engineer and I dable in
+              various projects with many different programing languages and
+              frameworks. At the moment my favorite language is Typescript,
+              framework is ReactJS, and database is MongoDB. I am a great person
+              to work with because I am resposible, empathetic, and truly enjoy
+              developing the people around me and I do all that with an
+              indominably positive attitude.
             </p>
             <div class="tab-titles">
               <p class="tab-links active-link" onclick="opentab('skills')">
@@ -66,8 +73,7 @@
                 <li>
                   <span>Web Development</span>
                   <br />
-                  Building web apps with Javascript X React and Python X Flask
-                  and Bootstrap
+                  Building web apps with Javascript/React and Python/Flask
                 </li>
                 <li>
                   <span>Algorithm Analysis</span>
@@ -137,43 +143,41 @@
             <i class="fa-solid fa-code"></i>
             <h2>Web Design</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
-              beatae omnis autem modi dolorum praesentium minus aliquam eaque
-              possimus alias architecto itaque ipsum earum porro sequi dolore
-              provident, temporibus fugiat.
+              I have been web designing for a 3 years now. I can build from
+              scratch with a template and get you a domain or I can build with
+              wix or wordpress contact me through the site
             </p>
-            <a href="#">Learn more</a>
           </div>
           <div>
-            <i class="fa-solid fa-mobile"></i>
-            <h2>App Design</h2>
+            <i class="fa-solid fa-chalkboard-user"></i>
+            <h2>Teacher's Assistant</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
-              beatae omnis autem modi dolorum praesentium minus aliquam eaque
-              possimus alias architecto itaque ipsum earum porro sequi dolore
-              provident, temporibus fugiat.
+              As an aspiring software engineer I enjoy teaching about concepts I
+              have learned with fellow classmates. I noticed that I have helped
+              a lot of my peers to understand challenging data structures like
+              linked lists and trees and hashmaps in the past. As a TA my
+              communication skills and teaching skills could really benefit any
+              professor.
             </p>
-            <a href="#">Learn more</a>
           </div>
           <div>
             <i class="fa-brands fa-uncharted"></i>
             <h2>Software Engineering</h2>
-
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
-              beatae omnis autem modi dolorum praesentium minus aliquam eaque
-              possimus alias architecto itaque ipsum earum porro sequi dolore
-              provident, temporibus fugiat.
+              I am familiar with agile software development and have experience
+              with many popular languages and frameworks including: Python,
+              Java, Javascript, ReactJS, Flask, Django, etc. I am also currently
+              learning database software like PostgreSQL and MongoDB.
             </p>
-            <a href="#">Learn more</a>
           </div>
         </div>
+        <a href="#contact" class="btn">Contact Me Here</a>
       </div>
     </div>
     <!------------------------------------portfolio----------------->
     <div id="portfolio">
       <div class="container">
-        <h1 class="sub-titile">My Work</h1>
+        <h1 class="sub-title">My Work</h1>
         <div class="work-list">
           <div class="work">
             <img src="images/carapp.png" />
@@ -183,7 +187,10 @@
                 This is a Javascript web app that allows you to customize a car
                 with 30 different features.
               </p>
-              <a href="#">
+              <a
+                href="https://emba00.github.io/final-project-start/"
+                target="_blank"
+              >
                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
               </a>
             </div>
@@ -196,7 +203,10 @@
                 This is a Typescript/React app I made in class that allows you
                 to make quizzes and save them on your browser.
               </p>
-              <a href="#">
+              <a
+                href="https://joyboy97.github.io/quizzer_start/"
+                target="_blank"
+              >
                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
               </a>
             </div>
@@ -209,21 +219,23 @@
                 This java app I made in class allows you to enter loan
                 information and makes a interest projection graph.
               </p>
-              <a href="#">
+              <a href="https://github.com/Joyboy97/final181" target="_blank">
                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
               </a>
             </div>
           </div>
         </div>
-        <a href="#" class="btn">See more</a>
+        <a href="https://github.com/Joyboy97" target="_blank" class="btn">
+          See more
+        </a>
       </div>
     </div>
     <!------------------------------------contact----------------->
     <div id="contact">
       <div class="container">
+        <h1 class="sub-title">Contact Me</h1>
         <div class="row">
           <div class="contact-left">
-            <h1 class="sub-title">Contact Me</h1>
             <p>
               <i class="fa-solid fa-envelope"></i>
               umorenudovictor@gmail.com
@@ -233,11 +245,16 @@
               (302)-898-6834
             </p>
             <div class="social-icons">
-              <a href="https://www.linkedin.com/in/victor-umoren-udo/">
+              <a
+                href="https://www.linkedin.com/in/victor-umoren-udo/"
+                target="_blank"
+              >
                 <i class="fa-brands fa-linkedin-in"></i>
               </a>
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              <a href="https://github.com/Joyboy97">
+              <a href="https://www.instagram.com/sites_byudo/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="https://github.com/Joyboy97" target="_blank">
                 <i class="fa-brands fa-github"></i>
               </a>
             </div>
@@ -268,7 +285,7 @@
       </div>
       <div class="copyright">
         <p>
-          Copyright Victor made with
+          Copyright © Victor made with
           <i class="fa-solid fa-heart"></i>
           from Easy Tutorials
         </p>
