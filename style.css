@@ -71,16 +71,32 @@ nav ul li a::after {
   bottom: -6px;
   transition: 0.5s;
 }
+
 /* cool transition css stuff */
 nav ul li a:hover::after {
   width: 100%;
 }
 .header-text {
-  width: 50%;
-  margin-top: 20%;
+  width: 100%;
+  margin: 20px 0 40px;
   font-size: 30px;
 }
-
+label {
+  margin: 20px 10px 40px;
+}
+select {
+  width: 100%;
+  padding: 16px 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #222;
+  color: white;
+  text-align-last: center;
+}
+option {
+  text-align-last: center;
+  color: white;
+}
 .header-text h1 {
   fornt-size: 60px;
   margin-top: 20px;

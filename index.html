@@ -12,6 +12,12 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+     <div class="header-text">
+      <h1>
+            PARKING EVAL
+            <br />
+          </h1>          
+        </div>
 
           </div>
           <div class="contact-right">
@@ -19,46 +25,224 @@
               
               <label for="cars">CHOOSE TYPE:</label>
   <select id="cartype" name="cartype">
+    <option value="" selected></option>
     <option value="sedan">SEDAN</option>
     <option value="suv">SUV</option>
-    <option value="truck" selected>TRUCK</option>
+    <option value="truck">TRUCK</option>
     <option value="other">OTHER</option>
-  </select><br>
+  </select><br><br>
   <label for="lot">CHOOSE LOT:</label>
   <select id="lot" name="lot">
-    <option value="88">88</option>
-    <option value="75">75</option>
-    <option value="19" selected>19</option>
-    <option value="3">3</option>
-  </select><br>
-  
-<label for="state">STATE INITIALS:</label><br>
-  <input type="text" id="state" name="state">
- <label for="carcolor">Enter car color: </label>
-  <input type="color" id="carcolor" name="carcolor">
-  <label for="offcenter"> OFFCENTER? (between 1 and 5):</label>
-  <input type="number" id="offcenter" name="offcenter" min="1" max="5">
-  <label for="nicescale"> RATE THIS CAR (between 1 and 5):</label>
-  <input type="number" id="nicescale" name="nicescale" min="1" max="5">
-<label for="nearenterance"> NEAR ENTRANCE? (between 1 and 10):</label>
-  <input type="number" id="nearenterance" name="nearenterance" min="1" max="10">
-  <label for="hubprox"> RATE CONVEINIENCE (between 1 and 5):</label>
-  <input type="number" id="hubprox" name="hubprox" min="1" max="5">
-<label for="frontback"> PARKING DIRECTION (front or back):</label>
-  <input type="text" id="frontback" name="frontback">
+    <option value="" selected></option>
+    <option value="88">LOT 88</option>
+    <option value="75">LOT 75</option>
+    <option value="19">LOT 19</option>
+    <option value="Courtyards">Yards</option>
+  </select><br><br>
+<label for="state">LICENSE PLATE STATE:</label>
+  <select id="state" name="state">
+    <option value="" selected></option>
+    <option value="DELAWARE">DELAWARE</option>
+<option value="NEW-JERSEY">NEW-JERSEY</option>
+<option value="NEW-YORK">NEW-YORK</option>
+<option value="MARYLAND">MARYLAND</option>
+  <option value="ALABAMA">ALABAMA</option>
 
+<option value="PENNSYLVANIA">PENNSYLVANIA</option>
+<option value="ALASKA">ALASKA</option>
+
+<option value="ARIZONA">ARIZONA</option>
+
+<option value="ARKANSAS">ARKANSAS</option>
+
+<option value="CALIFORNIA">CALIFORNIA</option>
+
+<option value="COLORADO">COLORADO</option>
+
+<option value="CONNECTICUT">CONNECTICUT</option>
+
+<option value="DC">DC</option>
+
+<option value="FLORIDA">FLORIDA</option>
+
+<option value="GEORGIA">GEORGIA</option>
+
+<option value="HAWAII">HAWAII</option>
+
+<option value="IDAHO">IDAHO</option>
+
+<option value="ILLINOIS">ILLINOIS</option>
+
+<option value="INDIANA">INDIANA</option>
+
+<option value="IOWA">IOWA</option>
+
+<option value="KANSAS">KANSAS</option>
+
+<option value="KENTUCKY">KENTUCKY</option>
+
+<option value="LOUISIANA">LOUISIANA</option>
+
+<option value="MAINE">MAINE</option>
+
+<option value="MASSACHUSETTS">MASSACHUSETTS</option>
+
+<option value="MICHIGAN">MICHIGAN</option>
+
+<option value="MINNESOTA">MINNESOTA</option>
+
+<option value="MISSISSIPPI">MISSISSIPPI</option>
+
+<option value="MISSOURI">MISSOURI</option>
+
+<option value="MONTANA">MONTANA</option>
+
+<option value="NEBRASKA">NEBRASKA</option>
+
+<option value="NEVADA">NEVADA</option>
+
+<option value="NEW-HAMPSHIRE">NEW-HAMPSHIRE</option>
+
+<option value="NEW-MEXICO">NEW-MEXICO</option>
+
+<option value="NEW-YORK">NEW-YORK</option>
+
+<option value="NORTH-CAROLINA">NORTH-CAROLINA</option>
+
+<option value="NORTH-DAKOTA">NORTH-DAKOTA</option>
+
+<option value="OHIO">OHIO</option>
+
+<option value="OKLAHOMA">OKLAHOMA</option>
+
+<option value="OREGON">OREGON</option>
+
+
+
+<option value="RHODE-ISLAND">RHODE-ISLAND</option>
+
+<option value="SOUTH-CAROLINA">SOUTH-CAROLINA</option>
+
+<option value="SOUTH-DAKOTA">SOUTH-DAKOTA</option>
+
+<option value="TENNESSEE">TENNESSEE</option>
+
+<option value="TEXAS">TEXAS</option>
+
+<option value="UTAH">UTAH</option>
+
+<option value="VERMONT">VERMONT</option>
+
+<option value="WASHINGTON">WASHINGTON</option>
+
+<option value="WEST-VIRGINIA">WEST-VIRGINIA</option>
+
+<option value="WISCONSIN">WISCONSIN</option>
+
+<option value="WYOMING">WYOMING</option>  
+  </select>
+  <br>
+
+ <label for="carcolor">CAR COLOR: </label>
+  <input type="color" id="carcolor" name="carcolor">
+  <br>
+  <label for="offcenter"> RATE HOW OFFCENTER THIS CAR IS FROM THE SPOT? (between 1 and 10):</label>
+  <select id="offcenter" name="offcenter">
+    <option value="" selected></option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+</select>
+<br>
+  <label for="nicescale"> RATE THIS CAR (between 1 and 10):</label>
+  <select id="nicescale" name="nicescale">
+    <option value="" selected></option>
+    <option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+    </select>
+    <br>
+<label for="nearenterance"> RATE HOW NEAR SPOT IS TO ENTRANCE? (between 1 and 10):</label>
+  <select id="nearenterance" name="nearenterance">
+    <option value="" selected></option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+ </select> <br>
+  <label for="hubprox"> RATE CONVEINIENCE (between 1 and 10):</label>
+  <select name="hubprox" id="hubprox">
+    <option value="" selected></option>
+    <option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+  </select><br>
+<label for="frontback"> PARKING DIRECTION (front or back):</label>
+  <select id="frontback" name="frontback">
+    <option value="" selected></option>
+  <option value="front">forward</option>
+    <option value="back">backward</option>
+  </select><br>
               <button type="submit" class="btn btn2">Submit</button>
             </form>
-           
+            <span id="msg">Enter some data!!</span>
+            
+           <marquee
+            behavior="scroll"
+            direction="right"
+            scrollamount="20"
+            onmouseover="this.stop();"
+            onmouseout="this.start();"
+          ><span>by Victor Udo</span>
+           </marquee>
+          
 
 <script>
+  const counter=0
   const scriptURL = 'https://script.google.com/macros/s/AKfycbwS9X-sQq4si4hE_tNHJcl3Tdacvx7-2PzGhjVwpc_S8yPs1yZo8Qy8WouNXLv01bepFw/exec'
   const form = document.forms['submit-to-google-sheet']
-
+  const msg= document.getElementByID("msg")
   form.addEventListener('submit', e => {
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => console.log('Success!', response))
+      .then(response => {
+      counter+=1
+        msg.innerHTML ="You have Input "
+        if(counter >=30){
+         msg.innerHTML ="You are a legend"
+        }
+        setTimeout(function(){
+          msg.innerHTML=""
+        },11000)
+        form.reset
+      })
       .catch(error => console.error('Error!', error.message))
   })
 </script>
