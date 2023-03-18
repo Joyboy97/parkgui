@@ -4,7 +4,7 @@
     <meta chrset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Victor's Personal Website</title>
+    <title>Parkinggui</title>
     <script
       src="https://kit.fontawesome.com/06b3f95b42.js"
       crossorigin="anonymous"
@@ -12,330 +12,55 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="header">
-      <div class="container">
-        <nav>
-          <a href="#">
-            <img src="images/name.png" alt="Victor" class="logo" />
-          </a>
-          <ul id="sidemenu">
-            <li><a href="#header">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <i class="fas fa-times" onclick="closemenu()"></i>
-          </ul>
 
-          <i class="fas fa-bars" onclick="openmenu()"></i>
-        </nav>
-        <div class="header-text">
-          <p>Network Managment Intern</p>
-          <h1>
-            Hello, I'm
-            <br />
-            <span>Victor Udo</span>
-          </h1>
-        </div>
-      </div>
-    </div>
-    <!-------------------about----------------------->
-    <div id="about">
-      <div class="container">
-        <div class="row">
-          <div class="about-col-1">
-            <img src="images/sitting2.jpg" />
-          </div>
-          <div class="about-col-2">
-            <h1 class="sub-title">About Me</h1>
-            <p>
-              I am currently a third year computer science student at the
-              University of Delaware. I work as a Network Management Intern on
-              UD campus. I am a young aspiring software engineer and I dable in
-              various projects with many different programing languages and
-              frameworks. At the moment my favorite language is Typescript,
-              framework is ReactJS, and database is MongoDB. I am a great person
-              to work with because I am resposible, empathetic, and truly enjoy
-              developing the people around me and I do all that with an
-              indominably positive attitude.
-            </p>
-            <div class="tab-titles">
-              <p class="tab-links active-link" onclick="opentab('skills')">
-                Skills
-              </p>
-              <p class="tab-links" onclick="opentab('experience')">
-                Experience
-              </p>
-              <p class="tab-links" onclick="opentab('education')">Education</p>
-            </div>
-            <div class="tab-contents active-tab" id="skills">
-              <ul>
-                <li>
-                  <span>Web Development</span>
-                  <br />
-                  Building web apps with Javascript/React and Python/Flask
-                </li>
-                <li>
-                  <span>Algorithm Analysis</span>
-                  <br />
-                  Describing run times and space complexity of an Algorithm
-                </li>
-                <li>
-                  <span>Server Operation</span>
-                  <br />
-                  Updating servers and working with various file share systems
-                </li>
-              </ul>
-            </div>
-            <div class="tab-contents" id="experience">
-              <ul>
-                <li>
-                  <span>Network Management</span>
-                  <br />
-                  Currently interning for the EECIS department at the Univerity
-                  of Delaware
-                </li>
-                <li>
-                  <span>Web Designer</span>
-                  <br />
-                  Currently maintaining the website and providing IT support for
-                  the Univerisity Delaware Student Government Association
-                </li>
-                <li>
-                  <span>Web Designer and Drone Photogragher</span>
-                  <br />
-                  Intern for Inegrated Systems a recognized sustainability
-                  research project at Bucknell Univerisity
-                </li>
-              </ul>
-            </div>
-            <div class="tab-contents" id="education">
-              <ul>
-                <li>
-                  <span>2021-Current</span>
-                  <br />
-                  Studying computer science student with data systems
-                  concentration Univerisity of Delaware
-                </li>
-                <li>
-                  <span>2020-2021</span>
-                  <br />
-                  Studied computer science as a freshman at the Widener
-                  Univerity
-                </li>
-                <li>
-                  <span>2020</span>
-                  <br />
-                  Awarded my highschool diploma at Appoquinimink High School
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!------------------------------------services----------------->
-    <div id="services">
-      <div class="container">
-        <h1 class="sub-title">My Services</h1>
-        <div class="services-list">
-          <div>
-            <i class="fa-solid fa-code"></i>
-            <h2>Web Design</h2>
-            <p>
-              I have been web designing for a 3 years now. I can build from
-              scratch with a template and get you a domain or I can build with
-              wix or wordpress contact me through the site
-            </p>
-          </div>
-          <div>
-            <i class="fa-solid fa-chalkboard-user"></i>
-            <h2>Teacher's Assistant</h2>
-            <p>
-              As an aspiring software engineer I enjoy teaching about concepts I
-              have learned with fellow classmates. I noticed that I have helped
-              a lot of my peers to understand challenging data structures like
-              linked lists and trees and hashmaps in the past. As a TA my
-              communication skills and teaching skills could really benefit any
-              professor.
-            </p>
-          </div>
-          <div>
-            <i class="fa-brands fa-uncharted"></i>
-            <h2>Software Engineering</h2>
-            <p>
-              I am familiar with agile software development and have experience
-              with many popular languages and frameworks including: Python,
-              Java, Javascript, ReactJS, Flask, Django, etc. I am also currently
-              learning database software like PostgreSQL and MongoDB.
-            </p>
-          </div>
-        </div>
-        <a href="#contact" class="btn">Contact Me Here</a>
-      </div>
-    </div>
-    <!------------------------------------portfolio----------------->
-    <div id="portfolio">
-      <div class="container">
-        <h1 class="sub-title">My Work</h1>
-        <div class="work-list">
-          <div class="work">
-            <img src="images/carapp.png" />
-            <div class="layer">
-              <h3>Car Customizing App</h3>
-              <p>
-                This is a Javascript web app that allows you to customize a car
-                with 30 different features.
-              </p>
-              <a
-                href="https://emba00.github.io/final-project-start/"
-                target="_blank"
-              >
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-              </a>
-            </div>
-          </div>
-          <div class="work">
-            <img src="images/quizzer1.png" />
-            <div class="layer">
-              <h3>Quiz App</h3>
-              <p>
-                This is a Typescript/React app I made in class that allows you
-                to make quizzes and save them on your browser.
-              </p>
-              <a
-                href="https://joyboy97.github.io/quizzer_start/"
-                target="_blank"
-              >
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-              </a>
-            </div>
-          </div>
-          <div class="work">
-            <img src="images/javafxfinal.png" />
-            <div class="layer">
-              <h3>Finance App</h3>
-              <p>
-                This java app I made in class allows you to enter loan
-                information and makes a interest projection graph.
-              </p>
-              <a href="https://github.com/Joyboy97/final181" target="_blank">
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <a href="https://github.com/Joyboy97" target="_blank" class="btn">
-          See more
-        </a>
-      </div>
-    </div>
-    <!------------------------------------contact----------------->
-    <div id="contact">
-      <div class="container">
-        <h1 class="sub-title">Contact Me</h1>
-        <div class="row">
-          <div class="contact-left">
-            <p>
-              <i class="fa-solid fa-envelope"></i>
-              umorenudovictor@gmail.com
-            </p>
-            <p>
-              <i class="fa-solid fa-phone"></i>
-              (302)-898-6834
-            </p>
-            <div class="social-icons">
-              <a
-                href="https://www.linkedin.com/in/victor-umoren-udo/"
-                target="_blank"
-              >
-                <i class="fa-brands fa-linkedin-in"></i>
-              </a>
-              <a href="https://www.instagram.com/sites_byudo/" target="_blank">
-                <i class="fa-brands fa-instagram"></i>
-              </a>
-              <a href="https://github.com/Joyboy97" target="_blank">
-                <i class="fa-brands fa-github"></i>
-              </a>
-            </div>
-            <a href="images/VictorResume2022-11.pdf" download class="btn btn2">
-              Download Resume
-            </a>
-            <!-- simplee html to download stuff -->
           </div>
           <div class="contact-right">
             <form name="submit-to-google-sheet">
-              <input type="text" name="Name" placeholder="Your Name" required />
-              <input
-                type="email"
-                name="Email"
-                placeholder="Your Email"
-                required
-              />
-              <textarea
-                name="Message"
-                rows="10"
-                placeholder="Your Message"
-              ></textarea>
+              
+              <label for="cars">CHOOSE TYPE:</label>
+  <select id="cartype" name="cartype">
+    <option value="sedan">SEDAN</option>
+    <option value="suv">SUV</option>
+    <option value="truck" selected>TRUCK</option>
+    <option value="other">OTHER</option>
+  </select><br>
+  <label for="lot">CHOOSE LOT:</label>
+  <select id="lot" name="lot">
+    <option value="88">88</option>
+    <option value="75">75</option>
+    <option value="19" selected>19</option>
+    <option value="3">3</option>
+  </select><br>
+  
+<label for="state">STATE INITIALS:</label><br>
+  <input type="text" id="state" name="state">
+ <label for="carcolor">Enter car color: </label>
+  <input type="color" id="carcolor" name="carcolor">
+  <label for="offcenter"> OFFCENTER? (between 1 and 5):</label>
+  <input type="number" id="offcenter" name="offcenter" min="1" max="5">
+  <label for="nicescale"> RATE THIS CAR (between 1 and 5):</label>
+  <input type="number" id="nicescale" name="nicescale" min="1" max="5">
+<label for="nearenterance"> NEAR ENTRANCE? (between 1 and 10):</label>
+  <input type="number" id="nearenterance" name="nearenterance" min="1" max="10">
+  <label for="hubprox"> RATE CONVEINIENCE (between 1 and 5):</label>
+  <input type="number" id="hubprox" name="hubprox" min="1" max="5">
+<label for="frontback"> PARKING DIRECTION (front or back):</label>
+  <input type="text" id="frontback" name="frontback">
+
               <button type="submit" class="btn btn2">Submit</button>
             </form>
-            <span id="msg"></span>
-          </div>
-        </div>
-      </div>
-      <div class="copyright">
-        <p>
-          Copyright © Victor made with
-          <i class="fa-solid fa-heart"></i>
-          from Easy Tutorials
-        </p>
-      </div>
-    </div>
-    <script>
-      var tablinks = document.getElementsByClassName('tab-links')
-      var tabcontents = document.getElementsByClassName('tab-contents')
-      var menu = document.getElementById('sidemenu')
+           
 
-      function openmenu() {
-        menu.style.right = '0'
-      }
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwS9X-sQq4si4hE_tNHJcl3Tdacvx7-2PzGhjVwpc_S8yPs1yZo8Qy8WouNXLv01bepFw/exec'
+  const form = document.forms['submit-to-google-sheet']
 
-      function closemenu() {
-        menu.style.right = '-200px'
-      }
-
-      function opentab(tabname) {
-        for (tablink of tablinks) {
-          tablink.classList.remove('active-link')
-        }
-        for (tabcontent of tabcontents) {
-          tabcontent.classList.remove('active-tab')
-        }
-        event.currentTarget.classList.add('active-link')
-        document.getElementById(tabname).classList.add('active-tab')
-        // this onclick funtion gets the name of the needed tab
-        // it uses javascript to read the current document remove active labels
-        //and then add the active tabs back in
-      }
-    </script>
-
-    <script>
-      const scriptURL =
-        'https://script.google.com/macros/s/AKfycbyeygX6Q9-qmudTq-7GR-F8WV_nCGRRUg2fc5DjtvE6ubERjAoA5pzQjediVkM_BczoCQ/exec'
-      const form = document.forms['submit-to-google-sheet']
-      const msg = document.getElementById('msg')
-      form.addEventListener('submit', (e) => {
-        e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-          .then((response) => {
-            msg.innerHTML = 'Message sent Successfully'
-            setTimeout(function () {
-              msg.innerHTML = ''
-            }, 5000)
-            form.reset()
-          })
-          .catch((error) => console.error('Error!', error.message))
-      })
-    </script>
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
   </body>
 </html>
