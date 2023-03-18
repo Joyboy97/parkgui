@@ -224,25 +224,16 @@
            </marquee>
           
 
+
+
 <script>
-  const counter=0
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbwS9X-sQq4si4hE_tNHJcl3Tdacvx7-2PzGhjVwpc_S8yPs1yZo8Qy8WouNXLv01bepFw/exec'
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxlZPtjm_yZUThtSsOzdzt90yZRubxgmyFTFOq1eMPQb2dSVIsuu9Yy7ym8SaWH82hhBA/exec'
   const form = document.forms['submit-to-google-sheet']
-  const msg= document.getElementByID("msg")
+
   form.addEventListener('submit', e => {
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => {
-      counter+=1
-        msg.innerHTML ="You have Input "
-        if(counter >=30){
-         msg.innerHTML ="You are a legend"
-        }
-        setTimeout(function(){
-          msg.innerHTML=""
-        },11000)
-        form.reset
-      })
+      .then(response => console.log('Success!', response))
       .catch(error => console.error('Error!', error.message))
   })
 </script>
